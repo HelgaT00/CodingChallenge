@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+
+ .container{
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-family: 'Mulish', sans-serif;
+    padding: 5rem;
+}
+
+ .container header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+ .container header img{
+    width: 13rem;
+}
+ .container header h1{
+    margin: 0.5rem;
+    color: lime;
+}
+
+ .container nav {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: lime;
+}
+
+ .container nav input:nth-child(2) {
+    margin-left: 0.2rem ;
+    margin-right: 0.2rem ;   
+}
+
+ .container main{
+    color: white;
+}
+ .container main div {
+    margin-top: 1rem;
+}
+ .container main div h4{
+    display: inline-block;
+    margin: 0;
+}
+ .container main div p{
+    margin: 0;
+}
+ .container main div div{
+    margin: 0;
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+#rettangolo1{
+    background: rgb(238, 181, 57);
+    width:30%;
+}
+#rettangolo2{
+    background: rgb(71, 184, 43);
+    width:55%;
+    
+}
+#rettangolo3{
+    background: rgb(184, 70, 55);
+    width:20%;
+}
